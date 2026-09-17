@@ -34,6 +34,10 @@ main h1 { color: var(--dark); letter-spacing: -.02em; line-height: 1.2; }
 .hero h1 { margin: 0 0 8px; font-size: 30px; line-height: 1.2; }
 .hero-kicker { display: inline-block; margin-bottom: 10px; padding: 5px 9px; border: 1px solid #ffffff66; border-radius: 999px; color: #eaf6ff; font-size: 12px; font-weight: 700; letter-spacing: .08em; }
 .hero-address { color: #e4f2ff; }
+.map-link { display: inline-block; margin: 8px 0 0 4px; padding: 6px 10px; border-radius: 999px; background: #ffffff1f; color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; border: 1px solid #ffffff66; }
+.map-link:hover { background: #ffffff35; }
+.empty .map-link { background: var(--light); color: var(--blue); border-color: #8fc4ee; }
+.empty .map-link:hover { background: #d7ebfb; }
 .search { display: flex; margin-top: 18px; }
 .search input { flex: 1; min-width: 0; padding: 15px; border: 2px solid transparent; border-radius: 10px 0 0 10px; font-size: 17px; }
 .search input:focus { border-color: var(--focus); outline: 0; }
