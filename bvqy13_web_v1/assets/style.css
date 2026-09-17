@@ -49,6 +49,8 @@ button.primary:hover, a.primary:hover { background: var(--dark); }
 .muted { color: var(--muted); }
 .empty { padding: 20px; background: #fff; border-radius: 12px; color: var(--muted); }
 footer { text-align: center; padding: 28px; background: #073b68; color: #fff; line-height: 1.6; }
+.hours { margin-top: 10px; color: #e6f3ff; }
+.hours b { color: #fff; }
 @media (max-width: 720px) {
   #menuBtn { display: block; }
   nav { display: none; flex-direction: column; align-items: stretch; }
