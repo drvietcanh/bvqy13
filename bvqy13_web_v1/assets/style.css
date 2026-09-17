@@ -72,6 +72,8 @@ footer { text-align: center; padding: 28px; background: #073b68; color: #fff; li
 .hours { margin-top: 10px; color: #e6f3ff; }
 .hours b { color: #fff; }
 .hero .hours { margin-top: 14px; padding-top: 12px; border-top: 1px solid #ffffff3d; }
+.empty .hours { color: #17324a; padding: 12px 0 2px; border-top: 1px solid var(--line); }
+.empty .hours b { color: var(--dark); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
