@@ -14,5 +14,5 @@ window.BV13_DATA={departments:[
 {id:'NOI_TH',name:'Khoa Nội Tổng hợp',block:'C',floor:'3–4'},
 {id:'TAICHINH',name:'Tài chính',block:'N1',floor:'1'},
 {id:'VANTHU',name:'Văn thư',block:'N1',floor:'1'},
-{id:'NTK_TT',name:'Khoa Nội thần kinh – Tâm thần',block:'N2',floor:'1–2'},
+{id:'NTK_TT',name:'Khoa Nội thần kinh – Tâm thần',block:'N2',floor:'Cả tòa'},
 {id:'NTN_DL',name:'Khoa Nội truyền nhiễm – Dị ứng – Da liễu',block:'N3',floor:'1–2'}],articles:[],services:[],guides:[]};
