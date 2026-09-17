@@ -1,0 +1,17 @@
+window.BV13_DATA={departments:[
+{id:'PKHAM',name:'Khoa Phòng khám',block:'A',floor:'1–2'},
+{id:'CDHA',name:'Khoa Chẩn đoán hình ảnh – Chẩn đoán chức năng',block:'A',floor:'1'},
+{id:'XN',name:'Khoa Xét nghiệm',block:'A',floor:'3'},
+{id:'KHTH',name:'Ban Kế hoạch Tổng hợp',block:'A',floor:'4'},
+{id:'CC',name:'Khoa Cấp cứu',block:'B',floor:'1'},
+{id:'GM',name:'Khoa Gây mê',block:'B',floor:'2'},
+{id:'NGOAI_TH',name:'Khoa Ngoại tổng hợp',block:'B',floor:'3'},
+{id:'NGOAI_CTCH',name:'Khoa Ngoại Chấn thương Chỉnh hình',block:'B',floor:'4'},
+{id:'NGOAI_CK',name:'Khoa Ngoại Chuyên khoa',block:'B',floor:'5'},
+{id:'DUOC',name:'Khoa Dược',block:'C',floor:'1'},
+{id:'YHCT_PHCN',name:'Khoa Y học cổ truyền – Vật lý trị liệu – Phục hồi chức năng',block:'C',floor:'2'},
+{id:'NOI_TH',name:'Khoa Nội Tổng hợp',block:'C',floor:'3–4'},
+{id:'TAICHINH',name:'Tài chính',block:'N1',floor:'1'},
+{id:'VANTHU',name:'Văn thư',block:'N1',floor:'1'},
+{id:'NTK_TT',name:'Khoa Nội thần kinh – Tâm thần',block:'N2',floor:'1–2'},
+{id:'NTN_DL',name:'Khoa Nội truyền nhiễm – Dị ứng – Da liễu',block:'N3',floor:'1–2'}],articles:[],services:[],guides:[]};
