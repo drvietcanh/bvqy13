@@ -1,4 +1,5 @@
 const C=window.BV13_CONFIG,D=window.BV13_DATA,app=document.querySelector('#app');
+if(C.cloudflareAnalyticsToken){const beacon=document.createElement('script');beacon.type='module';beacon.src='https://static.cloudflareinsights.com/beacon.min.js';beacon.setAttribute('data-cf-beacon',JSON.stringify({token:C.cloudflareAnalyticsToken}));document.body.append(beacon)}
 document.querySelector('#menuBtn').onclick=()=>document.querySelector('#nav').classList.toggle('open');
 document.querySelector('#footerHotline').textContent=C.hotline?`Hotline: ${C.hotline}`:'Hotline: đang cập nhật';
 const hoursHtml=()=>{const h=C.workingHours||{};return h.weekdays&&h.emergency?`<div class="hours"><b>Giờ làm việc</b><br>${esc(h.weekdays)}<br>${esc(h.emergency)}</div>`:''};
