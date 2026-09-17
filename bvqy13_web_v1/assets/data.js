@@ -1,5 +1,6 @@
 window.BV13_DATA={departments:[
-{id:'PKHAM',name:'Khoa Phòng khám',block:'A',floor:'1–2'},
+{id:'PKHAM_T1',name:'Khoa Phòng khám Cánh A – Tầng 1',block:'A',floor:'1'},
+{id:'PKHAM_T2',name:'Khoa Phòng khám Cánh A – Tầng 2',block:'A',floor:'2'},
 {id:'CDHA',name:'Khoa Chẩn đoán hình ảnh – Chẩn đoán chức năng',block:'A',floor:'1'},
 {id:'XN',name:'Khoa Xét nghiệm',block:'A',floor:'3'},
 {id:'KHTH',name:'Ban Kế hoạch Tổng hợp',block:'A',floor:'4'},
