@@ -38,6 +38,11 @@ main h1 { color: var(--dark); letter-spacing: -.02em; line-height: 1.2; }
 .map-link:hover { background: #ffffff35; }
 .empty .map-link { background: var(--light); color: var(--blue); border-color: #8fc4ee; }
 .empty .map-link:hover { background: #d7ebfb; }
+.map-card { margin-top: 18px; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: #eef7ff; box-shadow: 0 5px 16px #0b5ea81a; }
+.map-card iframe { display: block; width: 100%; height: 300px; border: 0; }
+.map-card-actions { padding: 10px 12px; text-align: center; }
+.map-card-actions .map-link { margin: 0; background: var(--blue); border-color: var(--blue); }
+.map-card-actions .map-link:hover { background: var(--dark); }
 .search { display: flex; margin-top: 18px; }
 .search input { flex: 1; min-width: 0; padding: 15px; border: 2px solid transparent; border-radius: 10px 0 0 10px; font-size: 17px; }
 .search input:focus { border-color: var(--focus); outline: 0; }
